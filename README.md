@@ -1,72 +1,110 @@
-# Siyam IT Center 🚀
+# Siyam IT Center
 
-A modern, responsive, and multilingual website for an IT and Service Agency, built with Next.js (App Router), React 19, Tailwind CSS V4, and Framer Motion. 
+A modern, responsive, and bilingual (English/Bangla) service website for Siyam IT Center in Narayanganj, Bangladesh.
 
-This website provides a comprehensive digital storefront for the center's real-world services such as Visa processing, NID services, e-TIN, Passport/Studio Photography, Air Ticket booking, and more.
+It is built with Next.js App Router and React, and showcases local digital/government services such as visa help, passport support, NID services, trade license, e-TIN, printing, and air ticket booking.
 
-## 🌟 Features
+## Live Website
 
-- **Multilingual Support**: Built-in support for multiple languages using `react-i18next`.
-- **Modern Animations**: Beautiful transitions and micro-interactions powered by `framer-motion` and custom CSS.
-- **Fully Responsive**: Mobile-first design implemented tightly with Tailwind CSS to look stunning on any screen.
-- **High Performance**: Pre-rendered static pages using Next.js 16 app router for blazing-fast load speeds.
-- **Service Catalog**: A dynamic services listing component to easily manage everything from Hotel Bookings to Police Clearances.
+- Live: https://siyamitcenter.vercel.app
+- Repository: https://github.com/RifatHossaiN47/siyam-it-center.git
 
-## 🛠 Tech Stack
+## Highlights
 
-- **Framework:** [Next.js](https://nextjs.org/) (App Router)
-- **Library:** [React 19](https://react.dev/)
-- **Styling:** [Tailwind CSS V4](https://tailwindcss.com/)
-- **Animation:** [Framer Motion](https://motion.dev/)
-- **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
-- **Language/i18n:** [React-i18next](https://react.i18next.com/)
+- Bilingual UI with language toggle (English and Bangla)
+- Smooth section-based landing page experience
+- Animated hero, counters, and feature/service cards
+- WhatsApp-first lead capture form with prefilled message
+- Mobile-first responsive design
+- Static optimized output using Next.js build
 
-## 📂 Project Structure
+## Sections Included
 
-\`\`\`text
+- Navbar with scroll navigation and language switch
+- Hero section with CTA buttons
+- Stats section with animated counters
+- Services grid (20+ services)
+- Why Choose Us section
+- About section
+- Contact section with WhatsApp integration
+- Footer with quick links, contact info, and social links
+- Scroll-to-top button
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- i18next + react-i18next
+- motion (Framer Motion package)
+- Lucide React + React Icons
+- Sonner (toast notifications)
+
+## Project Structure
+
 src/
-├── app/                  # Next.js App Router mapping
-│   ├── components/       # Reusable components (Navbar, Hero, Services, Footer, etc.)
-│   ├── globals.css       # Global styles (Tailwind injects)
-│   ├── layout.tsx        # Root HTML shell
-│   └── page.tsx          # Main Landing Page
-├── data/                 # Static data sets (e.g., services list)
-├── styles/               # Custom CSS (fonts, theme colors)
-└── i18n.ts               # Translation config
-\`\`\`
+|- app/
+|  |- components/
+|  |- globals.css
+|  |- layout.tsx
+|  |- page.tsx
+|- data/
+|  |- services.ts
+|- styles/
+|  |- fonts.css
+|  |- theme.css
+|- i18n.ts
 
-## 🚀 Getting Started
+## Local Development
 
-Provide instructions on how to install and run the project locally.
+Prerequisite: Node.js 20+ and npm.
 
-1. **Clone the repository:**
-   \`\`\`bash
-   git clone https://github.com/your-username/siyam-it-center.git
+1. Clone repository
+
+   git clone https://github.com/RifatHossaiN47/siyam-it-center.git
    cd siyam-it-center
-   \`\`\`
 
-2. **Install dependencies:**
-   \`\`\`bash
+2. Install dependencies
+
    npm install
-   \`\`\`
 
-3. **Run the development server:**
-   \`\`\`bash
+3. Start development server
+
    npm run dev
-   \`\`\`
 
-4. **Open in browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+4. Open in browser
 
-## 📦 Building for Production
+   http://localhost:3000
 
-To create an optimized production build:
+## Production Build
 
-\`\`\`bash
+Create and run production build:
+
 npm run build
-npm start
-\`\`\`
+npm run start
 
-## 📝 License
+## Available Scripts
 
-This project is licensed under the MIT License.
+- npm run dev: Run development server
+- npm run build: Build for production
+- npm run start: Start production server
+- npm run lint: Run ESLint checks
+
+## Service Data and Translations
+
+- Service cards are managed in src/data/services.ts
+- All translation keys and content are in src/i18n.ts
+
+## Deployment
+
+The project is deployed on Vercel:
+
+- https://siyamitcenter.vercel.app
+
+To redeploy, push to the main branch connected with Vercel.
+
+## Maintainer
+
+- Owner: Sabbir Ahmed
+- Built by: Md Rifat Hossen (rifat8851@gmail.com)
