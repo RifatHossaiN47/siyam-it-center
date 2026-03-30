@@ -45,15 +45,15 @@ It is built with Next.js App Router and React, and showcases local digital/gover
 
 src/
 |- app/
-|  |- components/
-|  |- globals.css
-|  |- layout.tsx
-|  |- page.tsx
+| |- components/
+| |- globals.css
+| |- layout.tsx
+| |- page.tsx
 |- data/
-|  |- services.ts
+| |- services.ts
 |- styles/
-|  |- fonts.css
-|  |- theme.css
+| |- fonts.css
+| |- theme.css
 |- i18n.ts
 
 ## Local Development

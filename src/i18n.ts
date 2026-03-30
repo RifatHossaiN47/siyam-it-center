@@ -34,7 +34,7 @@ const resources = {
         "We provide all government and digital services under one roof",
 
       // Service Names
-      "service.visa": "Visa Applying",
+      "service.visa": "Visa Application",
       "service.hotel": "Hotel Booking",
       "service.police": "Police Clearance",
       "service.nid": "NID Services",
