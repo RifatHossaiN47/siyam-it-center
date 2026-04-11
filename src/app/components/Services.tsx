@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { motion, useInView } from "motion/react";
 import {
   FaPassport,
+  FaGraduationCap,
   FaHotel,
   FaShieldAlt,
   FaIdCard,
@@ -25,12 +26,12 @@ import {
   FaPrint,
   FaLandmark,
   FaFileContract,
-  FaAward,
 } from "react-icons/fa";
 import { services } from "../../data/services";
 
 const iconMap: Record<string, React.ElementType> = {
   FaPassport,
+  FaGraduationCap,
   FaHotel,
   FaShieldAlt,
   FaIdCard,
@@ -52,7 +53,6 @@ const iconMap: Record<string, React.ElementType> = {
   FaPrint,
   FaLandmark,
   FaFileContract,
-  FaAward,
 };
 
 export function Services() {

@@ -6,6 +6,11 @@ export interface Service {
 
 export const services: Service[] = [
   { id: 'visa', nameKey: 'service.visa', icon: 'FaPassport' },
+  {
+    id: 'college',
+    nameKey: 'service.college',
+    icon: 'FaGraduationCap',
+  },
   { id: 'hotel', nameKey: 'service.hotel', icon: 'FaHotel' },
   { id: 'police', nameKey: 'service.police', icon: 'FaShieldAlt' },
   { id: 'nid', nameKey: 'service.nid', icon: 'FaIdCard' },
@@ -27,5 +32,4 @@ export const services: Service[] = [
   { id: 'printing', nameKey: 'service.printing', icon: 'FaPrint' },
   { id: 'land', nameKey: 'service.land', icon: 'FaLandmark' },
   { id: 'gd', nameKey: 'service.gd', icon: 'FaFileContract' },
-  { id: 'ribbon', nameKey: 'service.ribbon', icon: 'FaAward' },
 ];

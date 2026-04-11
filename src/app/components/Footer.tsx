@@ -1,7 +1,13 @@
 "use client";
 import { useTranslation } from "react-i18next";
 import { motion } from "motion/react";
-import { FaFacebook, FaWhatsapp } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTelegramPlane,
+  FaYoutube,
+} from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 import { services } from "../../data/services";
 
 export function Footer() {
@@ -25,16 +31,29 @@ export function Footer() {
 
   const socialLinks = [
     {
-      icon: FaFacebook,
-      url: "https://facebook.com",
-      label: "Facebook",
-      color: "#1877F2",
+      icon: FaInstagram,
+      url: "https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=jt8yx36",
+      label: "Instagram",
     },
     {
-      icon: FaWhatsapp,
-      url: "https://wa.me/8801581167284",
-      label: "WhatsApp",
-      color: "#25D366",
+      icon: FaFacebookF,
+      url: "https://www.facebook.com/profile.php?id=61578412464794",
+      label: "Facebook",
+    },
+    {
+      icon: SiTiktok,
+      url: "https://www.tiktok.com/@siyamit00?_r=1&_t=ZS-95AaRasuOeb",
+      label: "TikTok",
+    },
+    {
+      icon: FaTelegramPlane,
+      url: "https://t.me/+8801581167284",
+      label: "Telegram",
+    },
+    {
+      icon: FaYoutube,
+      url: "https://youtube.com/@siyamit00?si=_mlFXz5SkfR3sjbx",
+      label: "YouTube",
     },
   ];
 

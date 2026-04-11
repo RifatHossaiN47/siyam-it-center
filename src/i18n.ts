@@ -35,6 +35,8 @@ const resources = {
 
       // Service Names
       "service.visa": "Visa Application",
+      "service.college":
+        "College & University Application, Form Fill-up, Admission & Fee Payment",
       "service.hotel": "Hotel Booking",
       "service.police": "Police Clearance",
       "service.nid": "NID Services",
@@ -42,7 +44,7 @@ const resources = {
       "service.studio": "Studio / Photography",
       "service.scanning": "Scanning",
       "service.photocopy": "Photocopy",
-      "service.etin": "E-TIN Certificate",
+      "service.etin": "E-TIN Certificate Service",
       "service.trade": "Trade License",
       "service.plastic": "Plastic ID Card",
       "service.term": "Term Paper / Assignment",
@@ -56,7 +58,6 @@ const resources = {
       "service.printing": "Color & B/W Printing",
       "service.land": "Land Tax",
       "service.gd": "Online GD",
-      "service.ribbon": "Digital Ribbon / Certificate Work",
 
       // Why Choose Us
       "why.title": "Why Choose Siyam IT Center?",
@@ -147,6 +148,8 @@ const resources = {
 
       // Service Names
       "service.visa": "ভিসা আবেদন",
+      "service.college":
+        "কলেজ ও বিশ্ববিদ্যালয় আবেদন, ফরম ফিলাপ, ভর্তি, টাকা জমা",
       "service.hotel": "হোটেল বুকিং",
       "service.police": "পুলিশ ক্লিয়ারেন্স",
       "service.nid": "জাতীয় পরিচয়পত্র সেবা",
@@ -154,7 +157,7 @@ const resources = {
       "service.studio": "স্টুডিও / ফটোগ্রাফি",
       "service.scanning": "স্ক্যানিং",
       "service.photocopy": "ফটোকপি",
-      "service.etin": "ই-টিআইএন সার্টিফিকেট",
+      "service.etin": "ই-টিন সার্টিফিকেট",
       "service.trade": "ট্রেড লাইসেন্স",
       "service.plastic": "প্লাস্টিক আইডি কার্ড",
       "service.term": "টার্ম পেপার / অ্যাসাইনমেন্ট",
@@ -168,7 +171,6 @@ const resources = {
       "service.printing": "রঙিন ও সাদা-কালো প্রিন্টিং",
       "service.land": "ভূমির খাজনা",
       "service.gd": "অনলাইন জিডি",
-      "service.ribbon": "ডিজিটাল রিবন / মাথাকর্ম প্রতিবেদন",
 
       // Why Choose Us
       "why.title": "কেন সিয়াম আইটি সেন্টার বেছে নিবেন?",
